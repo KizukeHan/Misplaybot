@@ -112,6 +112,7 @@ bot.on('guildMemberAdd', member => { // Make sure this is defined correctly.
         })
 
     })
+})
 
     // Now, since we're done with the welcome. lets do the leave
     bot.on('guildMemberRemove', member => {
@@ -135,7 +136,7 @@ bot.on('guildMemberAdd', member => { // Make sure this is defined correctly.
 
     })
 
-})
+
 
 
 bot.login('TOKEN').catch(console.log);
