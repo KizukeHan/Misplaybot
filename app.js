@@ -138,4 +138,4 @@ bot.on('guildMemberAdd', member => { // Make sure this is defined correctly.
 })
 
 
-bot.login('MzgwODQyMDgwNTA4ODM3ODk5.DO-eXg.cwdtXhmw4Dwq9iXWy6W0NTdfJqM').catch(console.log);
+bot.login('TOKEN').catch(console.log);
