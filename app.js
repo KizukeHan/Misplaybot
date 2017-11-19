@@ -7,7 +7,17 @@ const db = require('quick.db');
 // We can call the file with all the functions here.
 const func = require('./functions.js'); // If this returns an error for you (or you might be on ubuntu/linux), try '../functions.js'
 // You can also change the name of func to something else like tools.
-
+const http = require('http');
+const express = require('express');
+const app = express();
+app.get("/", (request, response) => {
+  console.log(Date.now() + " Ping Received");
+  response.sendStatus(200);
+});
+app.listen(process.env.PORT);
+setInterval(() => {
+  http.get(`http://${process.env.PROJECT_DOMAIN}.glitch.me/`);
+}, 280000);
 // We can call the JSON file here
 //const commands = JSON.parse(fs.readFileSync('./commands.json', 'utf8'));
 // We need to call the serverPrefixes JSON file
