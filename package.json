@@ -1,0 +1,13 @@
+{
+	"name": "SuperMisplay",
+	"version": "0.0.1",
+	"description": "Bot dédié à Misplay.fr",
+	"main": "bot.js",
+	"author": "Kizuke-Han",
+	"dependencies": {
+		"discord.io": "^2.5.3",
+		"discord.js": "^11.2.1",
+		"quick.db": "^2.0.13",
+		"winston": "^2.4.0"
+	}
+}
