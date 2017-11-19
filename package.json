@@ -2,7 +2,7 @@
 	"name": "SuperMisplay",
 	"version": "0.0.1",
 	"description": "Bot dédié à Misplay.fr",
-	"main": "bot.js",
+	"main": "app.js",
 	"author": "Kizuke-Han",
 	"dependencies": {
 		"discord.io": "^2.5.3",
